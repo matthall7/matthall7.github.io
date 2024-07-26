@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Hall | Portfolio</title>
+
+    <!-- CSS Styles -->
+     <link rel="stylesheet" href="style.css">
+    
+    <!-- Font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <!-- Navbar -->
+     <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+    <!-- Hero Section -->
+     <section class="hero" id="about">
+      <h1 class="hero-name">Matthew Hall</h1>
+        <p class="hero-text">
+             "In attempting the feat, one proves their courage"
+        </p>
+        <img src="Headshot.png" alt="headshot" loading="lazy" class="hero-img">
+     </section>
+    <!-- More about -->
+     <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            Hey! My name is Matthew Hall and this is my developer portfolio. Hopefully, this will be my first of many projects in my career.
+            I built this to practice some fundamentals of HTML and CSS. Also, I will be sharing other projects I have completed here as well.
+        </p>
+        <p>
+            Now, for a little about me. I am a current undergraduate student at Kennesaw State University studying computer science.
+            I have taken courses on programming fundamentals, data structures, and database systems.
+            Currently, I am learning about operating systems, algorithms, and the basics of the software engineering process.
+            As shown below in the skills section, I have experience with programming in Java and SQL from my studies as well as the languages I used to develop my projects.
+        </p>
+        <p>
+            I am also a student-athlete here in Kennesaw! I compete in NCAA Division 1 Cross Country, Indoor Track, and Outdoor Track.
+            Many hours of my week are spent running, training, and recovering for my sport.
+            Apart from athletics, I also enjoy gaming with my friends and watching movies.
+        </p>
+     </section>
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+
+        <img width="144" height="144" src="https://img.icons8.com/3d-fluency/144/java.png" alt="java" loading="lazy" class="icon"/>
+        <img width="144" height="144" src="https://img.icons8.com/external-soft-fill-juicy-fish/144/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png" alt="external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish" loading="lazy" class="icon"/>
+        <img width="144" height="144" src="https://img.icons8.com/color/144/html-5--v1.png" alt="html-5--v1" loading="lazy" class="icon"/>
+        <img width="144" height="144" src="https://img.icons8.com/fluency/144/css3.png" alt="css3" loading="lazy" class="icon"/>
+        <img width="144" height="144" src="https://img.icons8.com/color/144/javascript--v1.png" alt="javascript--v1" loading="lazy" class="icon"/>
+
+      </section>
+    <!-- Projects section -->
+     <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="projects-container project-card">
+                <img src="tictactoe pic.png" alt="" loading="lazy" class="project-pic">
+                <h3 class="projects-title">Tic-Tac-Toe Game</h3>
+                <p class="project-details">
+                    A simple Tic-Tac-Toe game built to learn HTML, CSS, and JavaScript
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+        </div>
+     </section>
+    <!-- Contact section -->
+     <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xvgpzdwp" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input
+                          type="text"
+                          id="name"
+                          name="sender-name"
+                          placeholder="Enter Your Name"
+                          class="input-field"
+                          required
+                        />
+                      </div>
+                      <div class="form-control">
+                        <label for="email">Email</label>
+                        <input
+                          type="email"
+                          id="email"
+                          name="sender-email"
+                          placeholder="Enter Your Email"
+                          class="input-field"
+                          required
+                        />
+                      </div>
+                      <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea
+                          id="message"
+                          cols="60"
+                          rows="10"
+                          placeholder="Enter Your Message"
+                          name="message"
+                          class="input-field"
+                          required
+                        ></textarea>
+                      </div>
+                      <input
+                        type="submit"
+                        value="Submit"
+                        id="submit-btn"
+                        class="submit-btn"
+                      />
+                </form>
+            </div>
+        </div>
+     </section>
+    <!-- Footer section -->
+     <footer>
+        <p>
+            <!-- Source of inspiration: freeCodeCamp -->
+             Built by Matthew Hall - 
+             <a href="https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/">Inspired By freeCodeCamp</a>
+        </p>
+        <div class="footer-icons">
+            <!-- Icons from Icons8 -->
+             <div><a  href="https://icons8.com/icon/5OD485koNIrb/java">Java</a> icon by <a href="https://icons8.com">Icons8</a></div>
+             <div><a  href="https://icons8.com/icon/UFF3hmipmJ2V/sql">Sql</a> icon by <a href="https://icons8.com">Icons8</a></div>
+             <div><a  href="https://icons8.com/icon/20909/html">HTML</a> icon by <a href="https://icons8.com">Icons8</a></div>
+             <div><a  href="https://icons8.com/icon/7gdY5qNXaKC0/css">CSS</a> icon by <a href="https://icons8.com">Icons8</a></div>
+             <div><a  href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a href="https://icons8.com">Icons8</a></div>
+        </div>
+     </footer>
+</body>
+</html>
